@@ -34,3 +34,30 @@ header {
     /* Largura ou Comprimento */
     width: 100%;
 }
+
+/* UL */
+.menu{
+list-style:none;
+/* Lista Horizontal */
+display:flex;
+/* Espaço entre TAGS */
+gap:1rem;
+}
+ 
+/* Tag NAV */
+.menu-desktop{
+    display: none;
+}
+/* Daqui pra cima versão Mobile  */
+/* =================================== */
+
+/* Responsivo  */
+/*  Serve para telas Maiores */
+
+@media( min-width: 768px ) {
+
+/* NAV */
+.menu-desktop{
+    display: flex;
+}
+}
