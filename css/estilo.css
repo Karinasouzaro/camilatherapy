@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #c48d64;
+    background-color: #e7d8ca;
     /* Largura ou Comprimento */
     width: 100%;
 }
@@ -48,6 +48,13 @@ gap:1rem;
 .menu-desktop{
     display: none;
 }
+
+/* Logo */
+.logo{
+    width: 15rem;
+
+}
+
 /* Daqui pra cima versão Mobile  */
 /* =================================== */
 
@@ -61,3 +68,5 @@ gap:1rem;
     display: flex;
 }
 }
+
+
